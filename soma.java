@@ -14,6 +14,9 @@ public class Addition
         int number2 = integer.parseInt( secondName );
         
         int sum = number1 + number2;
+
+         JOptionPane.showMessageDialog( null, "The sum is " + sum, 
+                    "Sum of Two Integers", JOptionPane.PLAIN_MESSAGE );    
                 
                 
     }
